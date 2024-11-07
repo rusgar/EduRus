@@ -527,18 +527,23 @@
     height: 100%;
     width: 100%;
     opacity: .2;
+    
   }
   
   .intro .intro-title {
     color: #e7630b;
-    border:6px groove #f1f1f1;
+    border:6px groove #000;
     font-weight: 600;
     font-size: 4rem;
+    text-shadow: -5px -5px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
   
   .intro .intro-subtitle {
     font-size: 2.5rem;
     font-weight: 400;
+    text-shadow: 
+    -4px -1px 0 #e7630b;
+   
   }
   
   .intro .text-slider-items {
