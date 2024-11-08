@@ -182,5 +182,9 @@
 	  });
   });
 
+  let app = document.getElementById('typewriter');
+ 
+
+
 
 })(jQuery);
