@@ -675,3 +675,7 @@
 .badge-img {
   width: 50px; /* Tamaño de la imagen */
 }
+
+.icono-deportista {
+  font-size: 3.5rem; /* Ajusta el tamaño del ícono a 2.5rem (igual al tamaño de tu laptop) */
+}
