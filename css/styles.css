@@ -641,7 +641,7 @@
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
+  color: #e7630b;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -678,4 +678,30 @@
 
 .icono-deportista {
   font-size: 3.5rem; /* Ajusta el tamaño del ícono a 2.5rem (igual al tamaño de tu laptop) */
+}
+
+
+/*======================================
+//--//-->   ESTADISTICA
+======================================*/
+
+.counter-box {
+  color: #fff;
+  text-align: center;
+}
+
+.counter-ico {
+  margin-bottom: 1rem;
+}
+
+.counter-ico .ico-circle {
+  height: 60px;
+  width: 60px;
+  line-height: 1.8;
+  box-shadow: 0 0 0 10px #e7630b;
+}
+
+.counter-num .counter {
+  font-size: 2rem;
+  margin-bottom: 0;
 }
