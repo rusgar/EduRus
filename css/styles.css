@@ -705,3 +705,133 @@
   font-size: 2rem;
   margin-bottom: 0;
 }
+
+
+
+
+
+/*======================================
+//--//-->   PROYECTOS
+======================================*/
+
+
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/*======================================
+//--//-->   COMENTARIOS
+======================================*/
+
+.testimonials .owl-carousel .owl-item img {
+  width: auto;
+}
+
+.testimonial-box {
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-box .author-test {
+  margin-top: 1rem;
+}
+
+.testimonial-box .author-test img {
+  margin: 0 auto;
+}
+
+.testimonial-box .author {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1rem 0;
+  display: block;
+  font-size: 1.4rem;
+}
+
+.testimonial-box .comit {
+  font-size: 2rem;
+  color: #0078ff;
+  background-color: #fff;
+  width: 52px;
+  height: 52px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  line-height: 1.6;
+}
+.owl-dots {
+  text-align: center; /* Centrar los puntos */
+  margin-top: 20px; /* Espacio entre el carrusel y los puntos */
+}
+
+.owl-dot {
+  display: inline-block; /* Alinear los puntos en línea */
+  margin: 0 5px; /* Espacio entre puntos */
+  cursor: pointer; /* Cambiar el cursor al pasar */
+}
+
+.owl-dot span {
+  width: 20px; /* Ancho de cada punto */
+  height: 2px; /* Alto de cada punto */
+  background: #ddd; /* Color del punto inactivo */
+  border-radius: 50%; /* Hacer que los puntos sean circulares */
+  display: block; /* Hacer que el punto sea un bloque */
+  transition: background 0.3s; /* Efecto de transición al cambiar el color */
+}
+
+.owl-dot.active span {
+  background: #0078ff; /* Color del punto activo */
+}
