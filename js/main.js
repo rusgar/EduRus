@@ -104,7 +104,7 @@
 	  
 		// Animación del slider en la sección "Contact me by"
 		if ($('.text-slider-contacto').length == 1) {
-			var typed_contact_strings = ['Gmail', 'WhatsApp', 'Instagram', 'Facebook','TikTok']; // Añadir cadenas directamente aquí
+			var typed_contact_strings = ['Gmail', 'WhatsApp', 'Instagram', 'Facebook']; // Añadir cadenas directamente aquí
 			var typed_contact = new Typed('.text-slider-contacto', {
 				strings: typed_contact_strings,
 				typeSpeed: 80,
@@ -113,7 +113,7 @@
 				backSpeed: 30,
 				preStringTyped: function(pos, self) {
 				  // Remover clases previas
-				  $('.text-slider-contacto').removeClass('gmail-color whatsapp-color instagram-color facebook-color tiktok-color');
+				  $('.text-slider-contacto').removeClass('gmail-color whatsapp-color instagram-color facebook-color');
 				  
 				  // Aplicar la clase correcta según la posición (índice) del texto
 				  if (typed_contact_strings[pos] === 'Gmail') {
@@ -124,9 +124,7 @@
 					$('.text-slider-contacto').addClass('instagram-color');
 				  } else if (typed_contact_strings[pos] === 'Facebook') {
 					$('.text-slider-contacto').addClass('facebook-color');
-				  } else if (typed_contact_strings[pos] === 'TikTok') { 
-					$('.text-slider-contacto').addClass('tiktok-color');
-				} 
+				  } 
 				}
 			  });
 			}
