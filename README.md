@@ -148,6 +148,9 @@ python -m http.server 8000
 - **IFCD0111** - Programación Lenguajes Estructurados (Dicampus)
 - **IFCT0310** - Administración Bases de Datos (Dicampus)
 - **SSCE0110** - Docencia FP para el Empleo (CIFP)
+- **SSCE002PO** - Acreditacion Docente para Teleformacion Online(Mentiona)
+- **IFCT127PO** - Acreditacion Arquitectura de BIG DATA(Aspasia)
+- **IFCT155PO** - Acreditacion Introducion a la IA y sus logaritmos
 
 ### Bootcamps
 - **Core Code School** - Big Data & ML (800h) - Madrid 2024
