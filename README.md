@@ -53,7 +53,7 @@ Animaciones:  AOS (Animate On Scroll)
 - **Frontend Development**: JavaScript, MERN Stack, Vue.js
 - **Docencia**: Certificación Profesional Nivel 3 (SSCE0110)
 
-### 📈 Stats 2024
+### 📈 Stats 2025
 
 | Métrica | Valor |
 |---------|-------|
@@ -61,6 +61,7 @@ Animaciones:  AOS (Animate On Scroll)
 | 📦 Repositorios | 44 |
 | 🎓 Bootcamps | 2 |
 | 🏆 Certificaciones | 3 |
+| ✨ Formaciones | 4 |
 
 ---
 
@@ -95,22 +96,25 @@ Banner principal con efecto de texto dinámico y llamada a la acción
 - 🏃 Deportista: Running y equilibrio personal
 - 🎓 Formación: Certificaciones y bootcamps
 
-### 3. **Estadísticas**
+- ### 3. **Docencia**
+Mis experiencias dando la formacion a mis alumnos
+
+### 4. **Estadísticas**
 Contadores animados con métricas profesionales
 
-### 4. **Proyectos Recientes**
+### 5. **Proyectos Recientes**
 Galería interactiva con enlaces a GitHub y demos:
-- OXXON 3 (Juego Python)
+- OXXON 3 (Java MYSQL)
 - APP Running (MERN Stack)
 - Red & Wine (ML/Data Analysis)
-- Proyecto LILA (Ruby on Rails - Impacto educativo)
+- Proyecto LILA (Vue - Impacto educativo)
 - EURO 2020 (Data Analysis)
 - TDD Tennis (Java/Testing)
 
-### 5. **Formación**
+### 6. **Formación**
 Carrusel con certificaciones profesionales y bootcamps
 
-### 6. **Contacto**
+### 7. **Contacto**
 Enlaces a redes sociales y métodos de comunicación
 
 ---
