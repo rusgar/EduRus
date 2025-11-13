@@ -104,7 +104,7 @@
 	  
 		// Animación del slider en la sección "Contact me by"
 		if ($('.text-slider-contacto').length == 1) {
-			var typed_contact_strings = ['Gmail', 'WhatsApp', 'Instagram', 'Facebook']; // Añadir cadenas directamente aquí
+			var typed_contact_strings = ['Gmail', 'WhatsApp', 'Instagram', 'Facebook'];
 			var typed_contact = new Typed('.text-slider-contacto', {
 				strings: typed_contact_strings,
 				typeSpeed: 80,
@@ -132,34 +132,65 @@
 	  
 
 
-	/*--/ Testimonials owl /--*/
+	/*--/ Testimonials owl - FORMACIÓN /--*/
 	$(document).ready(function() {
 		$("#testimonial-mf").owlCarousel({
 			loop: true,
 			margin: 10,
 			nav: false,
 			dots: true,
-			autoplay: true, // Activar la reproducción automática
-			autoplayTimeout: 8000, // Cambiar cada 8 segundos
-			autoplayHoverPause: true, // Pausar cuando el mouse está sobre el carrusel
+			autoplay: true,
+			autoplayTimeout: 8000,
+			autoplayHoverPause: true,
 			responsive: {
 				0: {
-					items: 1 // Muestra 1 testimonio en pantallas pequeñas
+					items: 1
 				},
 				600: {
-					items: 1 // Muestra 1 testimonio en pantallas medianas
+					items: 1
 				},
 				1000: {
-					items: 1 // Muestra 1 testimonio en pantallas grandes
+					items: 1
 				}
 			}
 		});
-		 // Cambiar de testimonio al hacer clic en un punto
-		 $('.owl-dot').on('click', function() {
+		
+		// Cambiar de testimonio al hacer clic en un punto
+		$('#testimonial-mf .owl-dot').on('click', function() {
 			var index = $(this).index();
 			$('#testimonial-mf').trigger('to.owl.carousel', [index, 300]);
 		});
-	})
+	});
+
+	/*--/ Carousel owl - DOCENCIA /--*/
+	$(document).ready(function() {
+		$("#testimonial-docencia").owlCarousel({
+			loop: true,
+			margin: 10,
+			nav: false,
+			dots: true,
+			autoplay: true,
+			autoplayTimeout: 8000,
+			autoplayHoverPause: true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1000: {
+					items: 1
+				}
+			}
+		});
+		
+		// Cambiar de docencia al hacer clic en un punto
+		$('#testimonial-docencia .owl-dot').on('click', function() {
+			var index = $(this).index();
+			$('#testimonial-docencia').trigger('to.owl.carousel', [index, 300]);
+		});
+	});
 	
   $(document).ready(function(){
 	var maquinariaSlider = $('.maquinaria-slider').owlCarousel({
@@ -167,9 +198,10 @@
       margin: 10,
       nav: true,
       dots: false,
-      items: 3, //// Mostrar 3 items a la vez
-      navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"] // Flechas personalizadas
+      items: 3,
+      navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
     });
+	 
 	 // Vincular las flechas personalizadas
 	 $('.owl-prev').click(function() {
 		maquinariaSlider.trigger('prev.owl.carousel');
@@ -179,10 +211,5 @@
 		maquinariaSlider.trigger('next.owl.carousel');
 	  });
   });
-
-  let app = document.getElementById('typewriter');
- 
-
-
 
 })(jQuery);

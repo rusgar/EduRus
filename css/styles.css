@@ -276,6 +276,152 @@
     -webkit-animation: animate-preloader 1s linear infinite;
     animation: animate-preloader 1s linear infinite;
   }
+/* ======= DOCENCIA Section ======= */
+.docencia-section {
+  position: relative;
+  padding: 8rem 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Overlay gris difuminado sobre la imagen de fondo */
+.overlay-docencia {
+  background-color: rgba(123, 113, 113, 0.80); /* Gris con transparencia */
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  z-index: 0;
+}
+
+/* Asegurar que el contenido esté por encima del overlay */
+.docencia-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Estilos para las imágenes del carrusel */
+.docencia-section .owl-carousel .owl-item img {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.docencia-section .testimonial-box {
+  color: var(--dark-text-color);
+  text-align: center;
+}
+
+.docencia-section .author-test {
+  margin-top: 1rem;
+}
+
+.docencia-section .author-test img {
+  margin: 0 auto;
+}
+
+.docencia-section .author {
+  color: var(--dark-text-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1rem 0;
+  display: block;
+  font-size: 1.4rem;
+}
+
+.docencia-section .content-test {
+  padding: 2rem 1rem;
+}
+
+.docencia-section .description {
+  color: var(--text-color);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.docencia-section .custom-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.docencia-section .custom-link:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+.docencia-section .w-date {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.docencia-section .comit {
+  font-size: 2rem;
+  color: #0078ff;
+  background-color: #fff;
+  width: 52px;
+  height: 52px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  line-height: 1.6;
+}
+
+/* Estilos para los puntos de navegación del carrusel */
+.docencia-section .owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.docencia-section .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.docencia-section .owl-dot span {
+  width: 20px;
+  height: 2px;
+  background: #999;
+  border-radius: 50%;
+  display: block;
+  transition: background 0.3s;
+}
+
+.docencia-section .owl-dot.active span {
+  background: #0078ff;
+  width: 25px;
+}
+
+/* Responsive para tablets */
+@media (min-width: 768px) {
+  .docencia-section .description {
+    padding: 0 2rem;
+  }
+}
+
+/* Responsive para pantallas medianas */
+@media (min-width: 992px) {
+  .docencia-section .description {
+    padding: 0 5rem;
+  }
+}
+
+/* Responsive para pantallas grandes */
+@media (min-width: 1200px) {
+  .docencia-section .description {
+    padding: 0 8rem;
+  }
+}
+
   
   @-webkit-keyframes animate-preloader {
     0% {
