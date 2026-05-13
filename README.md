@@ -58,7 +58,7 @@ Animaciones:  AOS (Animate On Scroll)
 | Métrica | Valor |
 |---------|-------|
 | 📊 Total Commits | 153 |
-| 📦 Repositorios | 44 |
+| 📦 Repositorios | 63 |
 | 🎓 Bootcamps | 2 |
 | 🏆 Certificaciones | 3 |
 | ✨ Formaciones | 4 |
